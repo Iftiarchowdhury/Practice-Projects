@@ -64,13 +64,62 @@
 }
 .london{
     padding: 20px;
-    background-color: rgb(121, 101, 175);
+    background-color: rgb(218, 216, 224);
 }
 .banner{
+    height: 50vh;
+    background-color: rgb(179, 12, 45);
+   
+}
+.h1text{
+     text-align: center;
+     padding-top: 50px;
+     color: white;
+     font-weight: bold;
+     font-size: larger;
     
-    background-image: url(./assets/OYO\ Hotels\ in\ UK\ -\ Book\ Sanitised\ Hotels\ Online\ in\ London\ _\ OYO\ UK.html);
-    height: 70vh;
-    width: 100%;
+}
+.booking-form{
+    display: flex;
+    padding: 30px 10px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.booking-form div {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
 }
 
+
+.searchcontainer{
+   
+    margin: 10px 80px;
+    border: 2px solid rgb(206, 16, 76);
+    background-color: white;
+    align-items: center;
+}
+.input{
+    outline: none;
+    border: none;
+    padding: 4px 0px;
+}
+
+
+/* main section1 design start*/
+.section1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60vh;
+}
+.image1{
+    height: 10vh;
+    width: 200px;
+}
+.image2{
+    height: 10vh;
+    width: 200px;
+}
     
